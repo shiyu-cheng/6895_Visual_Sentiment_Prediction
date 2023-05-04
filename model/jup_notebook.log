@@ -1,0 +1,92 @@
+[W 22:40:51.098 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 2023-05-03 22:40:51.770 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-05-03 22:40:51.770 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-05-03 22:40:51.770 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-05-03 22:40:51.774 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab
+[I 2023-05-03 22:40:51.774 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 22:40:51.992 NotebookApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 22:40:51.996 NotebookApp] [nb_conda] enabled
+[I 22:40:52.138 NotebookApp] The port 8888 is already in use, trying another port.
+[I 22:40:52.140 NotebookApp] Serving notebooks from local directory: /home/sc5103/6895_Visual_Sentiment_Prediction/model
+[I 22:40:52.140 NotebookApp] Jupyter Notebook 6.5.3 is running at:
+[I 22:40:52.140 NotebookApp] http://image-sentiment-resnet50-vm:8889/?token=7013f41f8633894fd26f31cb634607c895f06a4986b4b1a1
+[I 22:40:52.140 NotebookApp]  or http://127.0.0.1:8889/?token=7013f41f8633894fd26f31cb634607c895f06a4986b4b1a1
+[I 22:40:52.140 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 22:40:52.144 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/sc5103/.local/share/jupyter/runtime/nbserver-10510-open.html
+    Or copy and paste one of these URLs:
+        http://image-sentiment-resnet50-vm:8889/?token=7013f41f8633894fd26f31cb634607c895f06a4986b4b1a1
+     or http://127.0.0.1:8889/?token=7013f41f8633894fd26f31cb634607c895f06a4986b4b1a1
+[W 22:43:38.881 NotebookApp] WARNING: The notebook server is listening on all IP addresses and not using encryption. This is not recommended.
+[W 2023-05-03 22:43:39.568 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-05-03 22:43:39.568 LabApp] 'ip' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[W 2023-05-03 22:43:39.568 LabApp] 'port' has moved from NotebookApp to ServerApp. This config will be passed to ServerApp. Be sure to update your config before our next release.
+[I 2023-05-03 22:43:39.572 LabApp] JupyterLab extension loaded from /opt/conda/lib/python3.7/site-packages/jupyterlab
+[I 2023-05-03 22:43:39.572 LabApp] JupyterLab application directory is /opt/conda/share/jupyter/lab
+[I 22:43:39.797 NotebookApp] [Jupytext Server Extension] Deriving a JupytextContentsManager from LargeFileManager
+[I 22:43:39.802 NotebookApp] [nb_conda] enabled
+[I 22:43:39.941 NotebookApp] The port 8888 is already in use, trying another port.
+[I 22:43:39.942 NotebookApp] The port 8889 is already in use, trying another port.
+[I 22:43:39.944 NotebookApp] Serving notebooks from local directory: /home/sc5103/6895_Visual_Sentiment_Prediction/model
+[I 22:43:39.944 NotebookApp] Jupyter Notebook 6.5.3 is running at:
+[I 22:43:39.944 NotebookApp] http://image-sentiment-resnet50-vm:8890/?token=761cc283d15993fab270b0bcb41da1598a74dc58373b85b0
+[I 22:43:39.944 NotebookApp]  or http://127.0.0.1:8890/?token=761cc283d15993fab270b0bcb41da1598a74dc58373b85b0
+[I 22:43:39.944 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 22:43:39.948 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/sc5103/.local/share/jupyter/runtime/nbserver-11369-open.html
+    Or copy and paste one of these URLs:
+        http://image-sentiment-resnet50-vm:8890/?token=761cc283d15993fab270b0bcb41da1598a74dc58373b85b0
+     or http://127.0.0.1:8890/?token=761cc283d15993fab270b0bcb41da1598a74dc58373b85b0
+[I 22:46:29.734 NotebookApp] 302 GET /?token=761cc283d15993fab270b0bcb41da1598a74dc58373b85b0 (140.180.240.10) 1.000000ms
+[W 22:46:34.163 NotebookApp] Notebook 6895-model1.ipynb is not trusted
+[I 22:46:34.333 NotebookApp] Kernel started: 056831c7-48a7-48fe-a528-f8a7c2a1cf3b, name: python3
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.control
+[IPKernelApp] WARNING | No such comm: 760ada1e-70fb-4dbd-a437-728aae35155b
+[I 22:48:34.752 NotebookApp] Saving file at /6895-model1.ipynb
+[I 22:48:34.753 NotebookApp] Saving 6895-model1.ipynb
+[W 22:48:34.753 NotebookApp] Notebook 6895-model1.ipynb is not trusted
+[I 22:50:34.355 NotebookApp] Saving file at /6895-model1.ipynb
+[I 22:50:34.357 NotebookApp] Saving 6895-model1.ipynb
+[I 22:52:34.354 NotebookApp] Saving file at /6895-model1.ipynb
+[I 22:52:34.355 NotebookApp] Saving 6895-model1.ipynb
+[I 22:54:34.354 NotebookApp] Saving file at /6895-model1.ipynb
+[I 22:54:34.355 NotebookApp] Saving 6895-model1.ipynb
+[I 22:56:34.346 NotebookApp] Saving file at /6895-model1.ipynb
+[I 22:56:34.347 NotebookApp] Saving 6895-model1.ipynb
+[I 22:58:34.876 NotebookApp] Saving file at /6895-model1.ipynb
+[I 22:58:34.877 NotebookApp] Saving 6895-model1.ipynb
+[I 23:00:35.200 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:00:35.201 NotebookApp] Saving 6895-model1.ipynb
+[I 23:02:48.373 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:02:48.375 NotebookApp] Saving 6895-model1.ipynb
+[I 23:04:53.180 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:04:53.181 NotebookApp] Saving 6895-model1.ipynb
+[I 23:06:53.355 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:06:53.356 NotebookApp] Saving 6895-model1.ipynb
+[I 23:08:37.888 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:08:37.889 NotebookApp] Saving 6895-model1.ipynb
+[I 23:10:34.364 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:10:34.364 NotebookApp] Saving 6895-model1.ipynb
+[I 23:12:34.371 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:12:34.372 NotebookApp] Saving 6895-model1.ipynb
+[I 23:14:34.354 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:14:34.355 NotebookApp] Saving 6895-model1.ipynb
+[I 23:16:34.350 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:16:34.351 NotebookApp] Saving 6895-model1.ipynb
+[I 23:18:34.354 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:18:34.355 NotebookApp] Saving 6895-model1.ipynb
+[I 23:20:34.361 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:20:34.362 NotebookApp] Saving 6895-model1.ipynb
+[I 23:22:34.368 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:22:34.369 NotebookApp] Saving 6895-model1.ipynb
+[I 23:24:34.359 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:24:34.359 NotebookApp] Saving 6895-model1.ipynb
+[I 23:26:34.878 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:26:34.878 NotebookApp] Saving 6895-model1.ipynb
+[I 23:28:34.878 NotebookApp] Saving file at /6895-model1.ipynb
+[I 23:28:34.879 NotebookApp] Saving 6895-model1.ipynb
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
