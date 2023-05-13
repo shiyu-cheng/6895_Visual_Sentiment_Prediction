@@ -5,19 +5,18 @@ import numpy as np
 import torch.nn as nn
 import torch
 import torchvision
-import torchvision.transforms as transforms
+from torchvision import transforms, models, datasets
 import matplotlib.pyplot as plt
 import torch.nn.functional as F
-from torchvision import transforms, models, datasets
 import torch.optim as optim
+from torch.utils.data import TensorDataset
+from torch.autograd import Variable
 import time
 import copy
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
-from torch.utils.data import TensorDataset
-from torch.autograd import Variable
-from collections import Counter
 from sklearn.metrics import confusion_matrix
+from collections import Counter
 import pandas as pd
 import itertools
 from sklearn.preprocessing import LabelEncoder
@@ -33,10 +32,10 @@ import itertools
 from PIL import Image
 from sklearn.metrics import classification_report, confusion_matrix
 from skimage.segmentation import mark_boundaries
-from torch.autograd import Variable
 from lime import lime_image
 from transformers import BlipProcessor, BlipForConditionalGeneration
 import urllib.parse
+import base64
 
 # Blip
 processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
@@ -138,9 +137,9 @@ st.markdown(upload, unsafe_allow_html=True)
 
 img_path = st.file_uploader(" ", type=["jpg", "png", "jpeg", "webp"])
 st.set_option('deprecation.showfileUploaderEncoding', False)
+# -
 
 
-# +
 if img_path is None:
     pass
 else:
