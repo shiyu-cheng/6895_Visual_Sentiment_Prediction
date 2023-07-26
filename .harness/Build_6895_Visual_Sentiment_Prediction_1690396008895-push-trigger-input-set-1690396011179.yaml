@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_6895_Visual_Sentiment_Prediction_1690396008895-push-trigger-input-set
+  identifier: Build_6895_Visual_Sentiment_Prediction_1690396008895pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_6895_Visual_Sentiment_Prediction_1690396008895
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
